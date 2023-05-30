@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Lexend', sans-serif;
+}
+
+.great {
+    font-size: 100px;
+    background: linear-gradient(90deg, #fadb61 0%, #ff006a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.great {
+    animation: hueRotate 7s alternate infinite;
+}
+
+@keyframes hueRotate {
+    0% {
+        filter: hue-rotate(279deg);
+    }
+
+    50% {
+        filter: hue-rotate(179deg);
+    }
+
+    100% {
+        filter: hue-rotate(12deg);
+    }
+}
+
+.btn {
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #262626;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: #262626;
+}
+
+.btn-pop {
+    display: none;
+}
+
+.dark-mode {
+    background-color: #262626;
+}
+
+.body {
+    background-color: white;
+    transition: background-color 0.3s ease;
+}
+
+.dark-mode {
+    background-color: #262626;
+}
+
+.great {
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.dark-mode .great {
+    color: white;
+}
+
+.btn{
+    background-color: #262626;
+    color: white;
+}
+
+.btn-white{
+    background: white;
+    color: #262626;
+}
