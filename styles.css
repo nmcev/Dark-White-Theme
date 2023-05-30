@@ -57,7 +57,7 @@ body {
 
 .body {
     background-color: white;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s ease;
 }
 
 .dark-mode {
@@ -73,12 +73,12 @@ body {
     color: white;
 }
 
-.btn{
+.btn {
     background-color: #262626;
     color: white;
 }
 
-.btn-white{
+.btn-white {
     background: white;
     color: #262626;
 }
